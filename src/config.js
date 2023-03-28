@@ -3,7 +3,7 @@ let variable = {};
 if (process.env.NODE_ENV === "production") {
   variable = {
     DB_ROUTE: "https://memories-backend-zf7s.onrender.com",
-    FRONT_ROUTE: "https://gilded-panda-2db24c.netlify.app/",
+    FRONT_ROUTE: "./",
   };
 } else {
   variable = {
