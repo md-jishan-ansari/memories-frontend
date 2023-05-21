@@ -1,6 +1,6 @@
 # Detailed video on project functionality
 
-## [Project URL](https://majestic-kelpie-51f2fe.netlify.app/posts)
+## [Project URL](https://majestic-kelpie-51f2fe.netlify.app)
 
 ## [Backend Repo](https://github.com/md-jishan-ansari/memories_backend)
 
