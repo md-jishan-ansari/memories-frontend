@@ -101,6 +101,11 @@ export default function UserProfileData() {
     setPasswordData(initialPasswordData);
   };
 
+  const setShowPassword = () => {
+    if (passwordType === 'password') setPasswordType('text');
+    else setPasswordType('password');
+  };
+
   return (
     <Grid container className={classes.container} elevation={6} component={Card}>
       <Grid item md={6} xs={12}>
@@ -182,7 +187,7 @@ export default function UserProfileData() {
               label="Password"
               value={passwordData.password}
               type={passwordType}
-              setPasswordType={setPasswordType}
+              setShowPassword={setShowPassword}
               ChangeHandler={handlePasswordChange}
             />
 
